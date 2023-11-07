@@ -3,18 +3,18 @@ import Link from "next/link";
 import React from "react";
 import RenderTags from "./RenderTags";
 const hotQuestion = [
-  { _id: 1, tittle: "how do I use express as a custom server in NextJs?" },
-  { _id: 2, tittle: "how do I use express as a custom server in NextJs?" },
-  { _id: 3, tittle: "how do I use express as a custom server in NextJs?" },
-  { _id: 4, tittle: "how do I use express as a custom server in NextJs?" },
+  { _id: "1", tittle: "how do I use express as a custom server in NextJs?" },
+  { _id: "2", tittle: "how do I use express as a custom server in NextJs?" },
+  { _id: "3", tittle: "how do I use express as a custom server in NextJs?" },
+  { _id: "4", tittle: "how do I use express as a custom server in NextJs?" },
 ];
 
 const popularTags = [
-  { _id: 1, name: "javascript", totalQuestions: 5 },
-  { _id: 2, name: "javascript", totalQuestions: 5 },
-  { _id: 3, name: "javascript", totalQuestions: 5 },
-  { _id: 4, name: "javascript", totalQuestions: 5 },
-  { _id: 5, name: "javascript", totalQuestions: 5 },
+  { _id: "1", name: "javascript", totalQuestions: 5 },
+  { _id: "2", name: "javascript", totalQuestions: 5 },
+  { _id: "3", name: "javascript", totalQuestions: 5 },
+  { _id: "4", name: "javascript", totalQuestions: 5 },
+  { _id: "5", name: "javascript", totalQuestions: 5 },
 ];
 
 const RightSidebar = () => {
